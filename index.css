@@ -1,0 +1,310 @@
+
+body{
+    font-family:'Russo One', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color:#009b4e;
+    display: flex;
+    position: fixed;
+}
+
+.logo-section{
+    margin-left: 35px;
+    height: 70px;
+    width: 200px;
+   
+}
+.logo-section img{
+    width: 130px;
+    height:50px ;
+    padding-top: 20px;
+}
+.nav-section-two{
+    width: 700px;
+    height: 50px;
+    padding-top: 40px;
+    
+    
+}
+span{
+    
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 15px;
+    padding-right: 30px;
+
+}
+.nav-section-three{
+    margin-left: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.facebook{
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+    background: url("images/facebook.svg");
+}
+.facebook:hover{
+    background: url("images/facebookHover.svg");
+}
+.twitter{
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+    background: url("images/twitter.svg");
+}
+.twitter:hover{
+    background: url("images/twitterHover.svg");
+}
+.youtube{
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+    background: url("images/youtube.svg");
+}
+.youtube:hover{
+    background: url("images/youtubeHover.svg");
+}
+.instagram{
+    width: 23px;
+    height: 23px;
+    margin-right: 20px;
+    background: url("images/instagram.svg");
+}
+.instagram:hover{
+    background: url("images/instagramHover.svg");
+}
+.spotify{
+    width: 23px;
+    height: 23px;
+    background: url("images/spotify.svg");
+}
+.spotify:hover{
+    background: url("images/spotifyHover.svg");
+}
+.user{
+    width: 23px;
+    height: 23px;
+    margin-left: 40px;
+    background: url("images/user.svg");
+}
+.user:hover{
+    background: url("images/userHover.svg");
+}
+
+.section-one{
+    
+    width: 100%; 
+    padding-top: 80px;
+    height: 343px;
+    background-color:rgb(0,177,63);  
+}
+.left-div{
+    width: 35%;
+    float: left;
+}
+.right-div{
+    float: left;
+    width: 65%;
+}
+.section-one img{
+    width: 632px;
+    float: right;
+}
+.section-one-title{
+    margin-left: 165px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+.learn-more-btn{
+    margin-left: 166px;
+    font-family:'Russo One', sans-serif ;
+    padding-top: 13px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 13px;
+    color: rgb(0,177,63);
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+.section-two{
+    width: 100%;
+    height: 550px;
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+.video-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-one{
+    margin: 50px 0px 0px 305px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+.text-two{
+    font-size: 14px;
+    font-family:  "AvenirNextLTW01-Medium";
+    margin: 0px 0px 0px 305px;
+    letter-spacing: 1px;
+    font-weight: 400;
+   
+}
+.message-btn{
+    background-color: #009b4e;
+    border: none;
+    float: right;
+    margin-right: 305px;
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+.message-btn img{
+    width: 25px; 
+}
+.bottle{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: rgb(254, 255, 255);
+}
+.bottle img{
+    width: 631px;
+    height: 430px;
+    background-color:white;
+}
+
+.end-div{
+    width: 100%;
+    height: 250px;
+    background-color: #009b4e;
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    
+}
+.end-logo{
+    width: 33%;
+  
+
+}
+.end-logo img{
+    padding-top: 10px;
+    width: 130px;
+    padding-left:200px ;
+}
+
+.connect-with-us{
+    width: 33%;
+   
+   
+}
+.connect-with-us p{
+    margin-top: 0;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+.connect-with-us img{
+    width: 23px;
+    margin-right: 12px;
+    padding-top: 25px;
+}
+
+.fb{
+    padding-left: 50px;
+}
+
+
+
+.products{
+    width: 33%;
+   
+}
+.li{
+   padding-left: 0;
+}
+.products p{
+    margin-top: 0;
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    margin-left: 20px;
+}
+li{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    line-height: 28px; 
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#009b4e;
+
+}
+
+.footer-one{
+    width: 100%;
+}
+.footer-one p,a{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    text-decoration:none ;
+    font-style: italic;
+}
+.footer-two{
+    width: 100%;
+    display: inline;
+    text-align: center;
+}
+.footer-two li{
+    display: inline;
+    
+
+}
+.left-border-footer{
+    margin-right: 10px;
+    border-left: solid 1px white;
+    padding-left: 10px;
+}
+.left-border-footer :hover{
+    color: black;
+}
+.text-one-f-two{
+    padding-right: 10px;
+}
+.text-one-f-two a:hover{
+    color: black;
+}
